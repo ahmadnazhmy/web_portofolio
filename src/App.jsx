@@ -3,6 +3,8 @@ import Navigation from './components/Navigation';
 import Hero from './views/Hero';
 import CaseStudies from './views/CaseStudies';
 import GetInTouch from './views/GetInTouch';
+import AboutMe from './views/AboutMe';
+import Skills from './views/Skills';
 
 function App() {
   return (
@@ -10,6 +12,12 @@ function App() {
       <Navigation/>
       <div id="hero">
         <Hero/>
+      </div>
+      <div id="about-me">
+        <AboutMe/>
+      </div>
+      <div>
+        <Skills/>
       </div>
       <div id="case-studies">
         <CaseStudies/>
@@ -22,5 +30,3 @@ function App() {
 }
 
 export default App;
-
-

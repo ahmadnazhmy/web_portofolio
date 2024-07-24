@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react'; // Tambahkan useEffect di sini
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -47,8 +47,9 @@ const Navigation = () => {
       <div className='max-w-7xl mx-auto flex items-center justify-between p-4 md:px-8'>
         <div className='hidden md:flex space-x-10'>
           <a href="#hero" onClick={(e) => handleNavClick(e, '#hero')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Home</a>
+          <a href="#about-me" onClick={(e) => handleNavClick(e, '#about-me')} className='hover:text-[#7F7F7F] transition-colors duration-300'>About Me</a>
           <a href="#case-studies" onClick={(e) => handleNavClick(e, '#case-studies')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Case Studies</a>
-          <a href="#get-in-touch" onClick={(e) => handleNavClick(e, '#get-in-touch')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Get In Touch</a>
+          <a href="#get-in-touch" onClick={(e) => handleNavClick(e, '#get-in-touch')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Feedback</a>
         </div>
         <a 
           href="https://www.linkedin.com/in/ahmadnazhmy" 
@@ -64,8 +65,9 @@ const Navigation = () => {
       {menuOpen && (
         <div className='md:hidden flex flex-col items-center space-y-4 py-4'>
           <a href="#hero" onClick={(e) => handleNavClick(e, '#hero')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Home</a>
+          <a href="#about-me" onClick={(e) => handleNavClick(e, '#about-me')} className='hover:text-[#7F7F7F] transition-colors duration-300'>About Me</a>
           <a href="#case-studies" onClick={(e) => handleNavClick(e, '#case-studies')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Case Studies</a>
-          <a href="#get-in-touch" onClick={(e) => handleNavClick(e, '#get-in-touch')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Get In Touch</a>
+          <a href="#get-in-touch" onClick={(e) => handleNavClick(e, '#get-in-touch')} className='hover:text-[#7F7F7F] transition-colors duration-300'>Feedback</a>
         </div>
       )}
     </div>

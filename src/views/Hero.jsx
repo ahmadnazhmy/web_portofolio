@@ -18,7 +18,7 @@ const Hero = () => {
   });
 
   const handleButtonClick = () => {
-    scrollToElement('#case-studies');
+    scrollToElement('#about-me');
   };
 
   return (
