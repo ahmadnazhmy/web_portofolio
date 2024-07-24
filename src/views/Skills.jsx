@@ -14,7 +14,7 @@ const Skills = () => {
       <h1 className='text-white text-3xl md:text-4xl mb-4 font-bold'>
         Skills
       </h1>
-      <p className='text-[#9C9C9C] mb-10 text-sm md:text-base text-center'>
+      <p className='text-[#9C9C9C] mb-10 mx-2 text-center'>
         This is the programming languages that I have studied so far.
       </p>
       <div className='flex flex-wrap justify-center gap-8'>

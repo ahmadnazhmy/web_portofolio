@@ -25,13 +25,13 @@ const CaseStudies = () => {
   return (
     <div className='w-full bg-white py-20'>
       <h1 className='text-center mb-2 text-3xl font-bold'>Case Studies</h1>
-      <p className='text-center mb-10 text-[#9C9C9C] text-sm md:text-base'>
+      <p className='text-center mb-10 md:mx-2 text-[#9C9C9C]'>
         Here's an overview of the projects I have worked on
       </p>
-      <div className='space-y-20'>
+      <div className='space-y-10 md:space-y-20'>
         <div
           ref={ref1}
-          className={`flex flex-col-reverse md:flex-row justify-between items-center w-11/12 md:w-2/3 mx-auto gap-8 md:gap-12 mb-20 transform transition-transform duration-700 ease-in-out ${
+          className={`flex flex-col-reverse md:flex-row justify-between items-center w-11/12 md:w-2/3 mx-auto gap-8 md:gap-12 mb-10 md:mb-20 transform transition-transform duration-700 ease-in-out ${
             inView1 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
@@ -52,7 +52,7 @@ const CaseStudies = () => {
         </div>
         <div
           ref={ref2}
-          className={`flex flex-col md:flex-row justify-between items-center w-11/12 md:w-2/3 mx-auto gap-8 md:gap-12 mb-20 transform transition-transform duration-700 ease-in-out ${
+          className={`flex flex-col md:flex-row justify-between items-center w-11/12 md:w-2/3 mx-auto gap-8 md:gap-12 mb-10 md:mb-20 transform transition-transform duration-700 ease-in-out ${
             inView2 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
@@ -73,7 +73,7 @@ const CaseStudies = () => {
         </div>
         <div
           ref={ref3}
-          className={`flex flex-col-reverse md:flex-row justify-between items-center w-11/12 md:w-2/3 mx-auto gap-8 md:gap-12 mb-20 transform transition-transform duration-700 ease-in-out ${
+          className={`flex flex-col-reverse md:flex-row justify-between items-center w-11/12 md:w-2/3 mx-auto gap-8 md:gap-12 mb-10 md:mb-20 transform transition-transform duration-700 ease-in-out ${
             inView3 ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}
         >
