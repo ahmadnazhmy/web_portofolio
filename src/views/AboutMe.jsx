@@ -10,10 +10,8 @@ const AboutMe = () => {
   const { ref: imageRef, inView: imageInView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
-    <div className='h-auto md:h-screen w-full bg-white py-10 md:py-20 flex flex-col items-center'>
-      <h1 
-        className='text-center mb-6 md:mb-8 text-2xl md:text-3xl font-bold'
-      >
+    <div className='h-screen w-full bg-white flex flex-col justify-center items-center py-10 md:py-20'>
+      <h1 className='text-center mb-6 md:mb-8 text-2xl md:text-3xl font-bold'>
         About Me
       </h1>
       <div className='flex flex-col md:flex-row justify-center md:justify-between items-center w-11/12 md:w-2/3 mx-auto gap-8'>
@@ -39,7 +37,7 @@ const AboutMe = () => {
           <div className={`${textInView ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} ref={textRef}>
             <a href='https://drive.google.com/file/d/1pLih2RgPlf_jA6Oxwxj9F-vRYJaG1RHU/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
               <button className='bg-[#5EB157] text-white border-none rounded px-4 md:px-5 py-2 flex items-center justify-center shadow-lg transition-shadow duration-300 ease-in-out hover:bg-[#6CCF6C]'>
-                <b className='text-sm md:text-base'>My Resume</b> <FontAwesomeIcon icon={faChevronRight} className="ml-2 text-sm md:text-base" />
+                <b>My Resume</b> <FontAwesomeIcon icon={faChevronRight} className="ml-2 text-sm md:text-base" />
               </button>
             </a>
           </div>

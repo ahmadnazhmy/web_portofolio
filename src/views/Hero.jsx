@@ -35,7 +35,7 @@ const Hero = () => {
             Web Developer Enthusiast | Undergraduate Information System Student at UPN Veteran Jakarta
           </p>
           <button
-            className='w-[250px] md:w-[270px] h-[50px] md:h-[60px] bg-[#3F8E00] shadow-lg shadow-green-700 text-white rounded-[5px] border-none hover:bg-green-500'
+            className='w-[250px] md:w-[270px] h-[50px] md:h-[60px] bg-[#3F8E00] shadow-lg text-white rounded-md border-none hover:bg-green-500'
             onClick={handleButtonClick}
           >
             <b>Let's get started</b> <FontAwesomeIcon icon={faChevronRight} />
