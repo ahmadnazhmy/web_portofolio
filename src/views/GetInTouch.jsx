@@ -23,7 +23,7 @@ const GetInTouch = () => {
         <h1 className='text-white text-3xl mb-4 font-bold'>
           Feedback
         </h1>
-        <p className='text-[#9C9C9C] mb-20'>
+        <p className='text-center mb-10 md:mx-2 text-[#9C9C9C]'>
           We’d love to hear from you! Whether you have a question about my work, want to discuss a potential project, or just want to say hello, feel free to reach out.
         </p>
         <div className='w-full max-w-md mx-auto'>
