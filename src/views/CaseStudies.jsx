@@ -25,7 +25,7 @@ const CaseStudies = () => {
   return (
     <div className='w-full bg-white py-20'>
       <h1 className='text-center mb-2 text-3xl font-bold'>Case Studies</h1>
-      <p className='text-center mb-10 md:mx-2 text-[#9C9C9C]'>
+      <p className='text-center mb-10 mx-2 text-[#9C9C9C]'>
         Here's an overview of the projects I have worked on
       </p>
       <div className='space-y-10 md:space-y-20'>
